@@ -6,7 +6,7 @@
 
 Generate meaningful commit messages from your staged changes using AI.
 
-[![npm](https://img.shields.io/npm/v/commitcraft)](https://www.npmjs.com/package/commitcraft)
+[![npm](https://img.shields.io/npm/v/commitpilot)](https://www.npmjs.com/package/commitpilot)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
@@ -18,10 +18,10 @@ Generate meaningful commit messages from your staged changes using AI.
 
 ```bash
 # With Ollama (free, local, no API key needed)
-npx commitcraft
+npx commitpilot
 
 # Or install globally
-npm install -g commitcraft
+npm install -g commitpilot
 auto-commit
 ```
 
