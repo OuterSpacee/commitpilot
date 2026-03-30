@@ -232,12 +232,12 @@ function cleanMessage(raw: string): string {
 
 function printHelp(): void {
   console.log(`
-  auto-commit - AI-powered git commit messages
+  aimsg - AI-powered git commit messages
 
   Usage:
-    auto-commit              Generate a commit message and commit
-    auto-commit --dry-run    Generate message without committing
-    auto-commit --help       Show this help
+    aimsg              Generate a commit message and commit
+    aimsg --dry-run    Generate message without committing
+    aimsg --help       Show this help
 
   Environment Variables:
     AUTO_COMMIT_PROVIDER     ollama (default), openai, anthropic, google
@@ -250,19 +250,19 @@ function printHelp(): void {
 
   Examples:
     # Free with Ollama (default - no API key needed)
-    auto-commit
+    aimsg
 
     # Use OpenAI
-    AUTO_COMMIT_PROVIDER=openai auto-commit
+    AUTO_COMMIT_PROVIDER=openai aimsg
 
     # Use Anthropic
-    AUTO_COMMIT_PROVIDER=anthropic auto-commit
+    AUTO_COMMIT_PROVIDER=anthropic aimsg
 
     # Use Google
-    AUTO_COMMIT_PROVIDER=google auto-commit
+    AUTO_COMMIT_PROVIDER=google aimsg
 
     # Custom model
-    AUTO_COMMIT_MODEL=mistral auto-commit
+    AUTO_COMMIT_MODEL=mistral aimsg
 `);
 }
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# auto-commit
+# commitpilot
 
 **AI-powered git commit messages. Free with Ollama. Zero config.**
 
@@ -22,16 +22,16 @@ npx aimsg
 
 # Or install globally
 npm install -g aimsg
-auto-commit
+aimsg
 ```
 
-That's it. Stage your changes, run `auto-commit`, and get a commit message.
+That's it. Stage your changes, run `aimsg`, and get a commit message.
 
 ## Demo
 
 ```
 $ git add .
-$ auto-commit
+$ aimsg
 
   Provider: ollama | Model: llama3.2
   Files: src/auth.ts, src/routes/login.ts
@@ -62,28 +62,28 @@ Install [Ollama](https://ollama.com), then:
 
 ```bash
 ollama pull llama3.2
-auto-commit
+aimsg
 ```
 
 ### OpenAI
 
 ```bash
 export OPENAI_API_KEY=sk-...
-AUTO_COMMIT_PROVIDER=openai auto-commit
+AUTO_COMMIT_PROVIDER=openai aimsg
 ```
 
 ### Anthropic
 
 ```bash
 export ANTHROPIC_API_KEY=sk-ant-...
-AUTO_COMMIT_PROVIDER=anthropic auto-commit
+AUTO_COMMIT_PROVIDER=anthropic aimsg
 ```
 
 ### Google
 
 ```bash
 export GOOGLE_API_KEY=...
-AUTO_COMMIT_PROVIDER=google auto-commit
+AUTO_COMMIT_PROVIDER=google aimsg
 ```
 
 ## Configuration
@@ -109,9 +109,9 @@ All configuration is via environment variables. No config files needed.
 ## Options
 
 ```bash
-auto-commit              # Generate and commit
-auto-commit --dry-run    # Generate without committing
-auto-commit --help       # Show help
+aimsg              # Generate and commit
+aimsg --dry-run    # Generate without committing
+aimsg --help       # Show help
 ```
 
 ## How It Works
@@ -125,9 +125,9 @@ Your diff is truncated to 8000 characters to stay within token limits. Only the 
 
 ## Tips
 
-- **Add to your shell alias**: `alias ac="auto-commit"` for quick access
+- **Add to your shell alias**: `alias ac="aimsg"` for quick access
 - **Use with Ollama for free**: no API costs, no data leaves your machine
-- **Custom models**: `AUTO_COMMIT_MODEL=codellama auto-commit`
+- **Custom models**: `AUTO_COMMIT_MODEL=codellama aimsg`
 
 ## Contributing
 
