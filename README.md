@@ -1,6 +1,6 @@
 <div align="center">
 
-# commitpilot
+# aimsg
 
 **AI-powered git commit messages. Free with Ollama. Zero config.**
 

@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OuterSpacee/commitpilot.git"
+    "url": "https://github.com/OuterSpacee/aimsg.git"
   },
-  "homepage": "https://github.com/OuterSpacee/commitpilot",
+  "homepage": "https://github.com/OuterSpacee/aimsg",
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts"
