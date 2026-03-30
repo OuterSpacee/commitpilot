@@ -1,5 +1,5 @@
 {
-  "name": "auto-commit-msg",
+  "name": "commitcraft",
   "version": "1.0.0",
   "description": "AI-powered git commit messages. Free with Ollama, or use OpenAI/Anthropic/Google.",
   "type": "module",
