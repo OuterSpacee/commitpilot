@@ -1,0 +1,39 @@
+{
+  "name": "auto-commit-msg",
+  "version": "1.0.0",
+  "description": "AI-powered git commit messages. Free with Ollama, or use OpenAI/Anthropic/Google.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "auto-commit": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "ai",
+    "git",
+    "commit",
+    "message",
+    "generator",
+    "ollama",
+    "openai",
+    "anthropic",
+    "cli",
+    "developer-tools",
+    "automation"
+  ],
+  "author": "OuterSpacee",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
